@@ -20,8 +20,9 @@ class Mahasiswa:
 
 
 
-eko=Mahasiswa("eko agus aditya",8348949,7)
 
+eko=Mahasiswa("eko agus aditya",8348949,7)
+adit=Mahasiswa("adit aditya",8999,90)
 
 print(eko.nama)
 print(eko.ambildata())
