@@ -8,6 +8,10 @@ class Mahasiswa:
         self.semester=inpputsemester
 
 
+    def belajar(self):
+        print("saya sedang belajar")
+
+
 
 eko=Mahasiswa("eko agus aditya",8348949,7)
 
