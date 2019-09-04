@@ -11,9 +11,19 @@ class Mahasiswa:
     def belajar(self):
         print("saya sedang belajar")
 
+    def ambildata(self):
+        return self.nama
+
+    def tambahnilai(self,up):
+        return self.semester+up
+
+
 
 
 eko=Mahasiswa("eko agus aditya",8348949,7)
 
 
 print(eko.nama)
+print(eko.ambildata())
+a=eko.tambahnilai(8)
+print(a)
