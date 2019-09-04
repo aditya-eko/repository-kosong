@@ -1,5 +1,5 @@
 class Mahasiswa:
-    pass
+    universitas="universitas indonesia"
 
 
     def __init__(self,inputnama,inputnip,inpputsemester):
