@@ -17,14 +17,20 @@ class Mahasiswa:
     def tambahnilai(self,up):
         return self.semester+up
 
+    def remidi(self,up):
+        total= (self.semester+up)/2
+        return total
 
 
 
 
 eko=Mahasiswa("eko agus aditya",8348949,7)
-adit=Mahasiswa("adit aditya",8999,90)
+adit=Mahasiswa("adits aditya",8999,90)
 
 print(eko.nama)
 print(eko.ambildata())
 a=eko.tambahnilai(8)
 print(a)
+
+remidi=eko.remidi(8)
+print(remidi)
